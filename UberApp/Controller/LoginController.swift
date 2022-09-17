@@ -71,22 +71,23 @@ class LoginController: UIViewController {
         configureUI()
     }
 
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
+    
     
     // MARK: - Selectors
     
     @objc func handleLogin() {
         guard let email = emailTextField.text else { return }
         guard let password = passwordTextField.text else { return }
+        
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if let error = error {
-                print("Failed to log user in with error \(error.localizedDescription)")
+                print("DEBUG: Failed to log user in with error \(error.localizedDescription)")
                 return
             }
             
-            print("Succesfully logged user in..")
+            guard let controller = UIApplication.shared.keyWindow?.rootViewController as? HomeController else { return }
+            controller.configureUI()
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
