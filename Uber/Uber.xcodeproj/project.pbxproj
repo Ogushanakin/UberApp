@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7109D1B92960117500DE6BBC /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7109D1B82960117500DE6BBC /* HomeController.swift */; };
 		711327FE295AE63C00E8544D /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711327FD295AE63C00E8544D /* AuthButton.swift */; };
 		714B96C6295CC25F00A779F7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 714B96C5295CC25F00A779F7 /* FirebaseAuth */; };
 		714B96C8295CC25F00A779F7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 714B96C7295CC25F00A779F7 /* FirebaseDatabase */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7109D1B82960117500DE6BBC /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		711327FD295AE63C00E8544D /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		7169E9F12958D34E0048ABE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71970BD8295AC07C00FFF535 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				71D562BC2952C9480079B27D /* LoginController.swift */,
 				71970BD8295AC07C00FFF535 /* SignUpController.swift */,
+				7109D1B82960117500DE6BBC /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				71970BD9295AC07C00FFF535 /* SignUpController.swift in Sources */,
 				711327FE295AE63C00E8544D /* AuthButton.swift in Sources */,
+				7109D1B92960117500DE6BBC /* HomeController.swift in Sources */,
 				71D562A42952C7E40079B27D /* AppDelegate.swift in Sources */,
 				71D562BD2952C9480079B27D /* LoginController.swift in Sources */,
 				71D562A62952C7E40079B27D /* SceneDelegate.swift in Sources */,
