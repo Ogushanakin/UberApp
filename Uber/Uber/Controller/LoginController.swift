@@ -42,7 +42,7 @@ final class LoginController: UIViewController {
                                        isSecureTextEntry: true)
     }()
     
-    private let loginButton: AuthButton = {
+    private lazy var loginButton: AuthButton = {
         let button = AuthButton(type: .system)
         button.setTitle("Log In", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
