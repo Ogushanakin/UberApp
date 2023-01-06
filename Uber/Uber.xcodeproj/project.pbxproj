@@ -14,6 +14,7 @@
 		714B96CA295CC25F00A779F7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 714B96C9295CC25F00A779F7 /* FirebaseFirestore */; };
 		714B96CC295CC25F00A779F7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 714B96CB295CC25F00A779F7 /* FirebaseStorage */; };
 		7169E9F22958D34E0048ABE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7169E9F12958D34E0048ABE0 /* Assets.xcassets */; };
+		717EE6812968A17400948B4D /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EE6802968A17400948B4D /* LocationInputView.swift */; };
 		71970BD9295AC07C00FFF535 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71970BD8295AC07C00FFF535 /* SignUpController.swift */; };
 		71BE28712963321900271776 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE28702963321900271776 /* LocationInputActivationView.swift */; };
 		71D562A42952C7E40079B27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D562A32952C7E40079B27D /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 		7109D1B82960117500DE6BBC /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		711327FD295AE63C00E8544D /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		7169E9F12958D34E0048ABE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717EE6802968A17400948B4D /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		71970BD8295AC07C00FFF535 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		71BE28702963321900271776 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
 		71D562A02952C7E40079B27D /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 			children = (
 				711327FD295AE63C00E8544D /* AuthButton.swift */,
 				71BE28702963321900271776 /* LocationInputActivationView.swift */,
+				717EE6802968A17400948B4D /* LocationInputView.swift */,
 			);
 			name = View;
 			path = "Vİew";
@@ -250,6 +253,7 @@
 				71970BD9295AC07C00FFF535 /* SignUpController.swift in Sources */,
 				711327FE295AE63C00E8544D /* AuthButton.swift in Sources */,
 				7109D1B92960117500DE6BBC /* HomeController.swift in Sources */,
+				717EE6812968A17400948B4D /* LocationInputView.swift in Sources */,
 				71D562A42952C7E40079B27D /* AppDelegate.swift in Sources */,
 				71D562BD2952C9480079B27D /* LoginController.swift in Sources */,
 				71D562A62952C7E40079B27D /* SceneDelegate.swift in Sources */,
